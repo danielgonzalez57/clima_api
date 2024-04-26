@@ -17,7 +17,7 @@
         @obtener-clima="obtenerClima"
       />
 
-      <!-- Actualizacion -->
+      <!-- Actualizacion u -->
       <Spinner v-if="cargando"/>
       <Alerta v-if="error">{{ error }}</Alerta>
 
